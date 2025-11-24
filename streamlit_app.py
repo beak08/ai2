@@ -74,10 +74,10 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
-lable[0]:{"texts":[중국식 냉면은 맛있어"],"images":["https://search.pstatic.net/sunny/?src=https%3A%2F%2Frecipe1.ezmember.co.kr%2Fcache%2Frecipe%2F2015%2F06%2F06%2Fe27ba43a2313adb585e420cc32b5037a.jpg&type=a340"]}, 
-lable[1]:{"texts":[짜짱면은 맛있어"],"images":["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA5MjZfMTUx%2FMDAxNzU4ODY4NjY4MDc0.sgThL3KMaMyQbYinrB3FntCVDCnzSBP2t9StGUG4CLEg.sOWNVItpmf41tCnJ7uzwbQw4Z3PjyAkC2AW8i5nUP8gg.PNG%2F20250926_153647.png&type=a340"]},
-lable[2]:{"texts":[ 짬봉은 맛있어"],"images":["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA4MjZfMjQ1%2FMDAxNzU2MTgxMzQ2ODk4.ecNlsAqDkEdEBUWi0rnDCQdPH7Ey8-OeHwOmUQP6XHAg.D1liKZaqHxrBAofOESlR3UnyXHJ_pmyu0rqtL17NSo0g.JPEG%2Fpromotion_bcd81697_2_1755479655.jpg&type=a340"]},
-lable[3]:{"texts":[ 탕수육은 맛있어"],"images":["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA1MDFfMTA0%2FMDAxNzQ2MDg2MjgwMzYy.oGXX9Snj0K900soFgAXCX6yjO19FiqBc_X_5VEpyaIUg.i2kySwwhiUEe6ESNUtA7uMKQvwd3DXOuSN3ZqLzSfawg.JPEG%2FIMG_9633.jpg&type=a340"]}
+ labels[0]: {"texts":["중국식 냉면은 맛있어"],"images":["https://search.pstatic.net/sunny/?src=https%3A%2F%2Frecipe1.ezmember.co.kr%2Fcache%2Frecipe%2F2015%2F06%2F06%2Fe27ba43a2313adb585e420cc32b5037a.jpg&type=a340"]}, 
+ labels[1]:{"texts":["짜짱면은 맛있어"],"images":["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA5MjZfMTUx%2FMDAxNzU4ODY4NjY4MDc0.sgThL3KMaMyQbYinrB3FntCVDCnzSBP2t9StGUG4CLEg.sOWNVItpmf41tCnJ7uzwbQw4Z3PjyAkC2AW8i5nUP8gg.PNG%2F20250926_153647.png&type=a340"]},
+ labels[2]:{"texts":["짬봉은 맛있어"],"images":["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA4MjZfMjQ1%2FMDAxNzU2MTgxMzQ2ODk4.ecNlsAqDkEdEBUWi0rnDCQdPH7Ey8-OeHwOmUQP6XHAg.D1liKZaqHxrBAofOESlR3UnyXHJ_pmyu0rqtL17NSo0g.JPEG%2Fpromotion_bcd81697_2_1755479655.jpg&type=a340"]},
+ labels[3]:{"texts":["탕수육은 맛있어"],"images":["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA1MDFfMTA0%2FMDAxNzQ2MDg2MjgwMzYy.oGXX9Snj0K900soFgAXCX6yjO19FiqBc_X_5VEpyaIUg.i2kySwwhiUEe6ESNUtA7uMKQvwd3DXOuSN3ZqLzSfawg.JPEG%2FIMG_9633.jpg&type=a340"]}
 }
 # ======================
 # 유틸
